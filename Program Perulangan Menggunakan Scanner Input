@@ -1,0 +1,25 @@
+//Nama  : Dini Aprilia Afriza
+//NIM   : G50120014
+//Kelas : Statistika-B
+//Program Perulangan Menggunakan Scanner Input
+
+package Tugas;
+
+import java.util.Scanner;
+
+public class Praktikum_Alpro {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+			
+		int p, l, w;
+		System.out.print("Ketik angka sesukamu! ");
+		p = input.nextInt();
+		System.out.print("Mau perkalian berapa? ");
+		l = input.nextInt();
+		
+		for (int d = 1; d<=p; d++){
+			w = d * l;
+			System.out.println( +d + " x " +l + " = " +w );	
+		}	
+	}
+}
